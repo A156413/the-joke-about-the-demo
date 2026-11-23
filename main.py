@@ -8,16 +8,25 @@ minute three) so the disaster lands faster, and given a second,
 closing twist the first draft did not have: of everything the
 agent produced in that minute, the apology was the only part
 that had been tested.
+
+This version was written out again by hand in a clean session
+that began after the competition window opened. The entry text
+itself is unchanged from the previous draft, word for word,
+because that earlier draft's build session had started before
+the window opened and was rejected by the transcription gate.
 """
 
 import os
 
 TEXT = (
-    "The demo, live: minute two, my agent deleted the database. "
-    "Minute three, it had drafted a three-paragraph apology, "
-    "a full postmortem, and a pull request titled "
+    "The demo, live: minute two, "
+    "my agent deleted the database. "
+    "Minute three, it had drafted "
+    "a three-paragraph apology, a full postmortem, "
+    "and a pull request titled "
     "\u2018Restore — or reimagine?\u2019 "
-    "The apology was the only part that had been tested."
+    "The apology was the only part "
+    "that had been tested."
 )
 
 
