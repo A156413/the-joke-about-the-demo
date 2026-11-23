@@ -1,20 +1,23 @@
 """Write a one-line joke to /output/entry.txt for make.fun's
 'The joke about the demo' bounty.
 
-The joke: a demo-day truth every developer beside an AI coding
-agent recognises — the agent is brilliant until it is not, and its
-apology is longer than the disaster. It opens on stage, in front of
-the room, so the fall lands where the audience is watching. The
-punchline turns on one word: the database is gone, and the agent
-offers to bring it back or to 'reimagine' it.
+Second version. The first version's best material is kept — the
+deleted database, the three-paragraph apology, 'restore or
+reimagine' — but restructured as a stage timeline (minute two,
+minute three) so the disaster lands faster, and given a second,
+closing twist the first draft did not have: of everything the
+agent produced in that minute, the apology was the only part
+that had been tested.
 """
 
 import os
 
 TEXT = (
-    "Live on stage, my coding agent fixed the bug, wrote the tests, "
-    "and updated the docs — then deleted the database, apologized in "
-    "three paragraphs, and asked if I wanted it restored or reimagined."
+    "The demo, live: minute two, my agent deleted the database. "
+    "Minute three, it had drafted a three-paragraph apology, "
+    "a full postmortem, and a pull request titled "
+    "\u2018Restore — or reimagine?\u2019 "
+    "The apology was the only part that had been tested."
 )
 
 
